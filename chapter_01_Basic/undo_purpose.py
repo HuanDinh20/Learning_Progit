@@ -1,0 +1,1 @@
+print('this file created for undo command git commit --amend')
