@@ -16,5 +16,34 @@ pushes the old commit out of the way and puts the new commit in its place.
 to unstage a staged file:
 git reset HEAD <path to staged file>
 
+*********** Unmodifying a Modified File **************
+Dangerous:
+
+git checkout -- <path to reververt file>
+
+It’s important to understand that git checkout -- <file> is a dangerous command.
+Any local changes you made to that file are gone — Git just replaced that file with
+the last staged or committed version. Don’t ever use this command unless you
+absolutely know that you don’t want those unsaved local changes
+
+********* Undoing things with git restore ******************
+From Git version 2.23.0 onwards, Git will use git restore instead of git
+reset for many undo operations
+
+**** Unstaging a Staged File with git restore
+git restore --staged <file path to unstaged>
+unadded what is add
+
+******* Unmodifying a Modified File with git restore ******
+
+git restore <file path>
+
+It’s important to understand that git restore <file> is a dangerous command. Any
+local changes you made to that file are gone — Git just replaced that file with the
+last staged or committed version. Don’t ever use this command unless you
+absolutely know that you don’t want those unsaved local changes
+
+
+
 
 """
