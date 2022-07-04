@@ -22,6 +22,13 @@ This option changes the log output to formats other than
 the default. short, full, fuller
 
 ************* limiting log outputs
+git log --since=2.weeks
+git log --until=2.weeks
+--until, --before
+--author
+--until, --before
+--committer
+--grep
 
 
 """
