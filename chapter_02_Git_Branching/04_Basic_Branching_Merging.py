@@ -54,6 +54,9 @@ Next, you have a hotfix to make. Let’s create a hotfix branch on which to work
 You can run your tests, make sure the hotfix is what you want, and finally merge the hotfix branch
 back into your master branch to deploy to production. You do this with the git merge command:
 
+using:
+git branch -d <name>
+to delete branch
 
-
+Now you can switch back to your work-in-progress branch on issue #53 and continue working on it.
 """
