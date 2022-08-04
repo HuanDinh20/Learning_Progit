@@ -8,6 +8,8 @@ apple
 red
 green
 blue
+John
+James
 
 - now create 2 branches name: dev1, dev2
 
