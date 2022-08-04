@@ -10,9 +10,18 @@ green
 blue
 yellow
 white
+John
+James
+
 - now create 2 branches name: dev1, dev2
 dev 1: change line 11, 12 to yellow and white
 dev 2: change line 11, 12 to john and james
 
 and then merge dev1 with dev2, to ge conflict
+There 4 way to solve conflict:
+1. git --abort
+2. accept their
+3. accept your
+4. Merge part of them and your
+
 """
