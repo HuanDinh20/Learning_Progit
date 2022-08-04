@@ -22,4 +22,28 @@ checkout command with the -b switch:
 
     git checkout -b iss53
 
+You work on your website and do some commits. Doing so moves the iss53 branch forward,
+because you have it checked out (that is, your HEAD is pointing to it)
+
+ The iss53 branch has moved forward with your work
+
+
+    Now you get the call that there is an issue with the website, and you need to fix it immediately. With
+Git, you don’t have to deploy your fix along with the iss53 changes you’ve made, and you don’t
+have to put a lot of effort into reverting those changes before you can work on applying your fix to
+what is in production. All you have to do is switch back to your master branch.
+
+    However, before you do that, note that if your working directory or staging area has uncommitted
+changes that conflict with the branch you’re checking out, Git won’t let you switch branches. It’s
+best to have a clean working state when you switch branches.
+    git checkout master
+    for example: error: Your local changes to the following files would be overwritten by checkout:
+        chapter_02_Git_Branching/04_Basic_Branching_Merging.py
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+
+
+
+
 """
