@@ -42,7 +42,17 @@ best to have a clean working state when you switch branches.
 Please commit your changes or stash them before you switch branches.
 Aborting
 
+At this point, your project working directory is exactly the way it was before you started working
+on issue #53, and you can concentrate on your hotfix. This is an important point to remember:
+when you switch branches, Git resets your working directory to look like it did the last time you
+committed on that branch. It adds, removes, and modifies files automatically to make sure your
+working copy is what the branch looked like on your last commit to it
 
+
+Next, you have a hotfix to make. Let’s create a hotfix branch on which to work until it’s completed
+
+You can run your tests, make sure the hotfix is what you want, and finally merge the hotfix branch
+back into your master branch to deploy to production. You do this with the git merge command:
 
 
 
