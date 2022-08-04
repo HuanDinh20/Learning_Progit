@@ -14,5 +14,5 @@ white
 dev 1: change line 11, 12 to yellow and white
 dev 2: change line 11, 12 to john and james
 
-
+and then merge dev1 with dev2, to ge conflict
 """
