@@ -8,8 +8,11 @@ apple
 red
 green
 blue
-
+yellow
+white
 - now create 2 branches name: dev1, dev2
+dev 1: change line 11, 12 to yellow and white
+dev 2: change line 11, 12 to john and james
 
 
 """
